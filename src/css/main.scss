@@ -50,8 +50,67 @@
 // Intro styles
 .main {
     .intro {
-        height: 100vh;
+        min-height: 100vh;
         background: url(../../img/bg.jpg) no-repeat center;
         background-size: cover;
+
+        .wrapper {
+            .intro__global {
+                padding-top: 263px;
+                color: #ffffff;
+
+                .intro__title {
+                    font-weight: 500;
+                    font-size: 50px;
+                    line-height: 60px;
+                    padding-bottom: 22px;
+                    max-width: 619px;
+                }
+                .intro__text {
+                    font-size: 16px;
+                    line-height: 24px;
+                    padding-bottom: 59px;
+                }
+                .intro__form {
+                    display: flex;
+                        
+                        .form__input {
+                            background: transparent,
+                                url(../../img/svg/Oval.svg) no-repeat left 6px;
+                            border: none;
+                            border-bottom: 2px solid #bfc0c5;
+                            width: 297px;
+                            padding-left: 43px;
+                            padding-bottom: 22px;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #fff;
+                            margin-right: 61px;
+                        }
+                        .form__input::placeholder {
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #fff;
+                        }
+                    
+                    .btn {
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 29px;
+                        color: #fff;
+                        background: #1b7dff;
+                        border: none;
+                        padding: 15px 39px 14px;
+                    }
+                    .btn:hover,
+                    .btn:focus,
+                    .btn:active{
+                        background: rgb(19, 57, 100);
+                    }
+                }
+            }
+        }
     }
 }

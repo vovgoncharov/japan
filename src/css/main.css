@@ -447,6 +447,31 @@ textarea {
   margin: 0 auto;
 }
 
+.wrapper-full {
+  max-width: 1262px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #102746;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section-title::after {
+  display: block;
+  content: "";
+  width: 253px;
+  height: 3px;
+  background-color: #006dfe;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -586,6 +611,10 @@ textarea {
   background: #133964;
 }
 
+.main .benefits {
+  margin-bottom: 131px;
+}
+
 .main .benefits .benifits__wrap {
   max-width: 1262px;
   background-color: #fff;
@@ -636,7 +665,8 @@ textarea {
   line-height: 24px;
   color: #006dfe;
   text-decoration: none;
-  margin-right: 26px;
+  padding-right: 59px;
+  background: url(../../img/svg/arrow.svg) no-repeat right center;
 }
 
 .main .benefits .benifits__wrap .odigo__travel .info__travel:first-child {
@@ -647,5 +677,207 @@ textarea {
 .main .benefits .benifits__wrap .odigo__travel .info__travel:last-child {
   margin-left: 56px;
   margin-right: 100px;
+}
+
+.main .city .wrapper-full .city__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 36px;
+}
+
+.main .city .wrapper-full .city__caption .city__title {
+  margin-right: 15px;
+}
+
+.main .city .wrapper-full .city__caption .city__all {
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+  padding-right: 59px;
+  text-decoration: none;
+  background: url(../../img/svg/arrow.svg) no-repeat right center;
+}
+
+.main .city .wrapper-full .city__caption .city__all:hover {
+  opacity: 0.6;
+}
+
+.main .city .wrapper-full .city__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.main .city .wrapper-full .city__cards .city__card {
+  position: relative;
+}
+
+.main .city .wrapper-full .city__cards .city__card .big__pic {
+  width: 619px;
+  height: 354px;
+}
+
+.main .city .wrapper-full .city__cards .city__card .big__pic::before {
+  display: block;
+  content: "";
+  width: 619px;
+  height: 354px;
+  background: rgba(21, 24, 36, 0.4);
+  position: absolute;
+}
+
+.main .city .wrapper-full .city__cards .city__card .lit-pic {
+  width: 415px;
+  height: 283px;
+}
+
+.main .city .wrapper-full .city__cards .city__card .city__card-title {
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+}
+
+.main .city .wrapper-full .city__cards .city__card::before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(21, 24, 36, 0.4);
+  position: absolute;
+}
+
+.main .city .wrapper-full .places .prefecture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 55px;
+  margin-top: 120px;
+}
+
+.main .city .wrapper-full .places .prefecture .prefecture__discription {
+  width: 520px;
+}
+
+.main .city .wrapper-full .places .prefecture .prefecture__discription .prefecture__title {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;
+}
+
+.main .city .wrapper-full .places .prefecture .prefecture__discription .prefecture__subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-top: 85px;
+  margin-bottom: 58px;
+}
+
+.main .city .wrapper-full .places .prefecture .prefecture__discription .prefecture__view {
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+  text-decoration: none;
+  background: url(../../img/svg/arrow.svg) no-repeat right;
+  padding-right: 56px;
+}
+
+.main .visit .wrapper-full .visit__title {
+  margin-top: 107px;
+}
+
+.main .visit .wrapper-full .visit__city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 58px;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon {
+  width: 386px;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .icon__like {
+  position: relative;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  bottom: 16px;
+  color: #fff;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 25px;
+  margin-right: 157px;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment {
+  margin-right: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment .like {
+  margin-right: 14px;
+  background: url(../../img/like.png) no-repeat right center;
+  padding-right: 20px;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment .comment {
+  background: url(../../img/comment.png) no-repeat right center;
+  padding-right: 20px;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .visit__discription .visit__text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-top: 45px;
+  margin-bottom: 31px;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .visit__discription .visit__more {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  background: #006DFE;
+  padding: 12px 19px;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

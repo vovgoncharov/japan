@@ -5,6 +5,28 @@
     max-width: 1060px;
     margin: 0 auto;
 }
+.wrapper-full {
+    max-width: 1262px;
+    margin: 0 auto;
+}
+.section-title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #102746;
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title::after {
+    display: block;
+    content: "";
+    width: 253px;
+    height: 3px;
+    background-color: #006dfe;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 
 //header styles
 .header {
@@ -115,6 +137,7 @@
     }
     //Benifits styles start
     .benefits {
+        margin-bottom: 131px;
         .benifits__wrap {
             max-width: 1262px;
             background-color: #fff;
@@ -153,19 +176,196 @@
                             line-height: 24px;
                             color: #006dfe;
                             text-decoration: none;
-                            margin-right: 26px;
+                            padding-right: 59px;
+                            background: url(../../img/svg/arrow.svg) no-repeat
+                                right center;
                         }
                     }
                 }
-                .info__travel:first-child{
+                .info__travel:first-child {
                     margin-left: 100px;
                     margin-right: 55px;
                 }
-                .info__travel:last-child{
+                .info__travel:last-child {
                     margin-left: 56px;
                     margin-right: 100px;
                 }
             }
         }
     }
+    //Benifits styles end
+    //City styles start
+    .city {
+        .wrapper-full {
+            .city__caption {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 36px;
+
+                .city__title {
+                    margin-right: 15px;
+                }
+                .city__all {
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #006dfe;
+                    padding-right: 59px;
+                    text-decoration: none;
+                    background: url(../../img/svg/arrow.svg) no-repeat right
+                        center;
+                }
+                .city__all:hover {
+                    opacity: 0.6;
+                }
+            }
+            .city__cards {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 10px;
+                .city__card {
+                    position: relative;
+
+                    .big__pic {
+                        width: 619px;
+                        height: 354px;
+                    }
+                    .big__pic::before {
+                        display: block;
+                        content: "";
+                        width: 619px;
+                        height: 354px;
+                        background: rgba(21, 24, 36, 0.4);
+                        position: absolute;
+                    }
+                    .lit-pic {
+                        width: 415px;
+                        height: 283px;
+                    }
+                    .city__card-title {
+                        position: absolute;
+                        bottom: 27px;
+                        left: 29px;
+                        font-weight: bold;
+                        font-size: 50px;
+                        line-height: 60px;
+                        color: #fff;
+                    }
+                }
+                .city__card::before {
+                    display: block;
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(21, 24, 36, 0.4);
+                    position: absolute;
+                }
+            }
+            //Places start(Prefecture)
+            .places {
+                .prefecture {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 55px;
+                    margin-top: 120px;
+                    .prefecture__discription {
+                        width: 520px;
+                        .prefecture__title {
+                            margin-top: 50px;
+                            font-weight: 500;
+                            font-size: 30px;
+                            line-height: 40px;
+                            color: #102746;
+                        }
+                        .prefecture__subtitle {
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #102746;
+                            margin-top: 85px;
+                            margin-bottom: 58px;
+                        }
+                        .prefecture__view {
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #006dfe;
+                            text-decoration: none;
+                            background: url(../../img/svg/arrow.svg) no-repeat
+                                right;
+                            padding-right: 56px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //City styles end
+    //Visit styles start
+    .visit {
+        .wrapper-full {
+            .visit__title {
+                margin-top: 107px;
+            }
+            .visit__city {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 58px;
+                .visit__icon {
+                    width: 386px;
+                    .icon__like {
+                        position: relative;
+                        .like__city {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            position: absolute;
+                            bottom: 16px;
+                            color: #fff;
+
+                            .like__city-japan {
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 24px;
+                                margin-left: 25px;
+                                margin-right: 157px;
+                            }
+                            .like__comment {
+                                margin-right: 23px;
+                                display: flex;
+
+                                .like {
+                                    margin-right: 14px;
+                                    background: url(../../img/like.png)
+                                        no-repeat right center;
+                                    padding-right: 20px;
+                                }
+                                .comment {
+                                    background: url(../../img/comment.png)
+                                        no-repeat right center;
+                                    padding-right: 20px;
+                                }
+                            }
+                        }
+                    }
+                    .visit__discription {
+                        .visit__text {
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #102746;
+                            margin-top: 45px;
+                            margin-bottom: 31px;
+                        }
+                        .visit__more {
+                            font-size: 16px;
+                            line-height: 19px;
+                            text-decoration: none;
+                            background: #006DFE;
+                            padding: 12px 19px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //Visit end
 }

@@ -1,0 +1,73 @@
+@media screen and (max-width: 767px) {
+    .header {
+        .wrapper {
+            .header__wrapper {
+                .header__burger {
+                    display: block;
+                }
+
+                .header__nav {
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                    top: 0;
+                    left: 0;
+                    background: #000;
+                    z-index: 10;
+                    padding: 75px;
+                    transform: translateX(100%);
+                    transition: 0.2s all linear;
+
+                    .header__list {
+                        display: block;
+
+                        .header__item {
+                            width: 100%;
+                            margin-right: 0;
+                            margin-bottom: 30px;
+
+                            .header__link {
+                                font-size: 48px;
+                                line-height: 58px;
+                            }
+                        }
+
+                        .header__item:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    .header__nav-close {
+                        width: 40px;
+                        height: 40px;
+                        background: #000;
+                        position: absolute;
+                        top: 3%;
+                        right: 20%;
+
+                        .header__nav-close-line {
+                            display: block;
+                            height: 2px;
+                            width: 100%;
+                            background: #fff;
+                            position: absolute;
+                            top: 50%;
+                        }
+
+                        .header__nav-close-line:first-child {
+                            transform: rotate(45deg);
+                        }
+
+                        .header__nav-close-line:last-child {
+                            transform: rotate(-45deg);
+                        }
+                    }
+                }
+
+                .header__nav_active {
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+}

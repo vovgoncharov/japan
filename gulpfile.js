@@ -8,7 +8,6 @@ const browserSync = require('browser-sync').create();
 
 const cssFiles = [
     './src/css/main.css',
-    './src/css/media.css',
     './src/css/slick.css',
     './src/css/animate.css'
 ]

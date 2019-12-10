@@ -445,11 +445,13 @@ textarea {
 .wrapper {
   max-width: 1060px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .wrapper-full {
   max-width: 1262px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section-title {
@@ -519,6 +521,36 @@ textarea {
 
 .header .header__wrapper .header__list .header__item:last-child {
   margin-right: 0;
+}
+
+.header .header__wrapper .header__burger {
+  display: none;
+  width: 40px;
+  height: 28px;
+  position: relative;
+}
+
+.header .header__wrapper .header__burger .burger__line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+}
+
+.header .header__wrapper .header__burger .burger__line_first {
+  top: 0;
+}
+
+.header .header__wrapper .header__burger .burger__line_second {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.header .header__wrapper .header__burger .burger__line_third {
+  bottom: 0;
 }
 
 .main .intro {
@@ -713,9 +745,6 @@ textarea {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   padding-bottom: 10px;
 }
 
@@ -724,7 +753,7 @@ textarea {
 }
 
 .main .city .wrapper-full .city__cards .city__card .big__pic {
-  width: 619px;
+  width: 100%;
   height: 354px;
 }
 
@@ -738,7 +767,7 @@ textarea {
 }
 
 .main .city .wrapper-full .city__cards .city__card .lit-pic {
-  width: 415px;
+  width: 100%;
   height: 283px;
 }
 
@@ -750,6 +779,10 @@ textarea {
   font-size: 50px;
   line-height: 60px;
   color: #fff;
+}
+
+.main .city .wrapper-full .city__cards .city__margin {
+  margin-right: 10px;
 }
 
 .main .city .wrapper-full .city__cards .city__card::before {
@@ -772,8 +805,13 @@ textarea {
   margin-top: 120px;
 }
 
+.main .city .wrapper-full .places .prefecture .prefecture__picture {
+  width: 54%;
+  height: auto;
+}
+
 .main .city .wrapper-full .places .prefecture .prefecture__discription {
-  width: 520px;
+  width: 44%;
 }
 
 .main .city .wrapper-full .places .prefecture .prefecture__discription .prefecture__title {
@@ -816,11 +854,15 @@ textarea {
 }
 
 .main .visit .wrapper-full .visit__city .visit__icon {
-  width: 386px;
+  width: 31%;
 }
 
 .main .visit .wrapper-full .visit__city .visit__icon .icon__like {
   position: relative;
+}
+
+.main .visit .wrapper-full .visit__city .visit__icon .icon__like .city__icon {
+  width: 100%;
 }
 
 .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
@@ -843,7 +885,7 @@ textarea {
   font-size: 18px;
   line-height: 24px;
   margin-left: 25px;
-  margin-right: 157px;
+  margin-right: 74%;
 }
 
 .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment {
@@ -876,8 +918,132 @@ textarea {
   font-size: 16px;
   line-height: 19px;
   text-decoration: none;
-  background: #006DFE;
+  background: #006dfe;
   padding: 12px 19px;
   color: #fff;
+}
+
+.main .videos {
+  width: 100%;
+  margin-top: 144px;
+}
+
+.main .videos .videos__wrapper {
+  width: 94%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.main .videos .videos__wrapper .video__item {
+  padding-top: 56.2%;
+}
+
+.main .videos .videos__wrapper .video__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  background: #0e1d28;
+  padding: 120px 0;
+}
+
+.footer .wrapper .footer__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .wrapper .footer__item .footer__logo {
+  width: 50%;
+}
+
+.footer .wrapper .footer__item .footer__nav {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .wrapper .footer__item .footer__nav .footer__menu-item .nav__title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.footer .wrapper .footer__item .footer__nav .footer__menu-item .footer__menu-link {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header .wrapper .header__wrapper .header__burger {
+    display: block;
+  }
+  .header .wrapper .header__wrapper .header__nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    z-index: 10;
+    padding: 75px;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: 0.2s all linear;
+    transition: 0.2s all linear;
+  }
+  .header .wrapper .header__wrapper .header__nav .header__list {
+    display: block;
+  }
+  .header .wrapper .header__wrapper .header__nav .header__list .header__item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .header .wrapper .header__wrapper .header__nav .header__list .header__item .header__link {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .header .wrapper .header__wrapper .header__nav .header__list .header__item:last-child {
+    margin-bottom: 0;
+  }
+  .header .wrapper .header__wrapper .header__nav .header__nav-close {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    top: 3%;
+    right: 20%;
+  }
+  .header .wrapper .header__wrapper .header__nav .header__nav-close .header__nav-close-line {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+  }
+  .header .wrapper .header__wrapper .header__nav .header__nav-close .header__nav-close-line:first-child {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  .header .wrapper .header__wrapper .header__nav .header__nav-close .header__nav-close-line:last-child {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  .header .wrapper .header__wrapper .header__nav_active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
 }
 /*# sourceMappingURL=main.css.map */

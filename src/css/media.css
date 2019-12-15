@@ -1,4 +1,113 @@
+@media screen and (max-width: 1180px) {
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 30%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+    bottom: 5px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main .intro .wrapper .intro__global .intro__form {
+    padding-bottom: 100px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .form__input {
+    margin-top: 50px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .btn {
+    margin-top: 70px;
+  }
+  .main .visit .wrapper-full .visit__city {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+    bottom: 20px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 100%;
+  }
+  .main .benefits .benifits__wrap .odigo__title {
+    display: none;
+  }
+  .main .benefits .benifits__wrap .odigo__title-hidden {
+    display: block;
+  }
+  .main .benefits .benifits__wrap .odigo__travel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .main .visit .wrapper-full .visit__city {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+    bottom: 20px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 70%;
+  }
+  .main .city .wrapper-full .city__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .city .wrapper-full .city__cards .city__card {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main .city .wrapper-full .places .prefecture {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main .city .wrapper-full .places .prefecture .prefecture__picture {
+    width: 100%;
+    padding: 50px 0;
+  }
+  .main .city .wrapper-full .places .prefecture .prefecture__discription {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 25px;
+  }
   .header .wrapper .header__wrapper .header__burger {
     display: block;
   }
@@ -58,6 +167,179 @@
   .header .wrapper .header__wrapper .header__nav_active {
     -webkit-transform: translateX(0);
             transform: translateX(0);
+  }
+  .main .visit .wrapper-full .visit__city {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+    bottom: 10px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 30%;
+  }
+  .main .city .wrapper-full .city__caption {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .city .wrapper-full .city__caption .city__title {
+    margin-bottom: 20px;
+  }
+  .footer {
+    padding: 50px 0;
+  }
+  .footer .wrapper .footer__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .wrapper .footer__item .footer__logo {
+    width: 80%;
+  }
+  .footer .wrapper .footer__item .footer__nav {
+    padding-top: 20px;
+    width: 80%;
+  }
+  .footer .wrapper .footer__item .footer__nav .footer__menu .footer__menu-item .nav__title {
+    font-size: 16px;
+  }
+  .footer .wrapper .footer__item .footer__nav .footer__menu .footer__menu-item .footer__menu-link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main .visit .wrapper-full .visit__city {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+    bottom: 5px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 10%;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment {
+    margin-right: 10px;
+  }
+  .main .intro .wrapper .intro__global .intro__title {
+    font-size: 25px;
+  }
+  .main .intro .wrapper .intro__global .intro__form {
+    padding-bottom: 100px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .form__input {
+    margin-top: 50px;
+    width: 230px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .btn {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .main .visit .wrapper-full .visit__city {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+    bottom: 3px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 10%;
+    font-size: 14px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment .like {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .main .intro .wrapper .intro__global .intro__title {
+    font-size: 25px;
+  }
+  .main .intro .wrapper .intro__global .intro__form {
+    padding-bottom: 100px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .form__input {
+    margin-top: 50px;
+    width: 150px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .form__input::-webkit-input-placeholder {
+    font-size: 12px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .form__input:-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .form__input::-ms-input-placeholder {
+    font-size: 12px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .form__input::placeholder {
+    font-size: 12px;
+  }
+  .main .intro .wrapper .intro__global .intro__form .btn {
+    margin-top: 70px;
+  }
+  .main .visit .wrapper-full .visit__city {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city {
+    bottom: 3px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__city-japan {
+    margin-right: 50%;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment {
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  .main .visit .wrapper-full .visit__city .visit__icon .icon__like .like__city .like__comment .like {
+    font-size: 12px;
+  }
+  .main .benefits .benifits__wrap .odigo__travel .info__travel .more__travel .learn__more {
+    font-size: 14px;
+    padding-right: 40px;
   }
 }
 /*# sourceMappingURL=media.css.map */

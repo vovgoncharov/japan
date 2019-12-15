@@ -1,4 +1,173 @@
+@media screen and (max-width: 1180px) {
+    .main {
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    .visit__icon {
+                        .icon__like {
+                            .like__city {
+                                .like__city-japan {
+                                    margin-right: 30%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .main {
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    .visit__icon {
+                        .icon__like {
+                            .like__city {
+                                bottom: 5px;
+
+                                .like__city-japan {
+                                    margin-right: 20%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .main {
+        .intro {
+            .wrapper {
+                .intro__global {
+                    .intro__form {
+                        padding-bottom: 100px;
+
+                        .form__input {
+                            margin-top: 50px;
+                        }
+
+                        .btn {
+                            margin-top: 70px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    flex-direction: column;
+
+                    .visit__icon {
+                        width: 60%;
+                        margin: 0 auto;
+                        padding-top: 50px;
+
+                        .icon__like {
+                            .like__city {
+                                bottom: 20px;
+
+                                .like__city-japan {
+                                    margin-right: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .benefits {
+            .benifits__wrap {
+                .odigo__title {
+                    display: none;
+                }
+
+                .odigo__title-hidden {
+                    display: block;
+                }
+
+                .odigo__travel {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .main {
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    flex-direction: column;
+
+                    .visit__icon {
+                        width: 60%;
+                        margin: 0 auto;
+                        padding-top: 50px;
+
+                        .icon__like {
+                            .like__city {
+                                bottom: 20px;
+
+                                .like__city-japan {
+                                    margin-right: 70%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .city {
+            .wrapper-full {
+
+                .city__cards {
+                    flex-direction: column;
+
+                    .city__card {
+                        width: 100%;
+                        margin-top: 20px;
+                    }
+                }
+
+                .places {
+                    .prefecture {
+                        flex-direction: column;
+                        align-items: center;
+
+                        .prefecture__picture {
+                            width: 100%;
+                            padding: 50px 0;
+                        }
+
+                        .prefecture__discription {
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 767px) {
+    .section-title {
+        font-size: 25px;
+    }
+
     .header {
         .wrapper {
             .header__wrapper {
@@ -66,6 +235,250 @@
 
                 .header__nav_active {
                     transform: translateX(0);
+                }
+            }
+        }
+    }
+
+    .main {
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    flex-direction: column;
+
+                    .visit__icon {
+                        width: 60%;
+                        margin: 0 auto;
+                        padding-top: 50px;
+
+                        .icon__like {
+                            .like__city {
+                                bottom: 10px;
+
+                                .like__city-japan {
+                                    margin-right: 30%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .city {
+            .wrapper-full {
+                .city__caption {
+                    flex-direction: column;
+
+                    .city__title {
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 50px 0;
+
+        .wrapper {
+            .footer__item {
+                flex-direction: column;
+                align-items: center;
+
+                .footer__logo {
+                    width: 80%;
+                }
+
+                .footer__nav {
+                    padding-top: 20px;
+                    width: 80%;
+
+                    .footer__menu {
+                        .footer__menu-item {
+                            .nav__title {
+                                font-size: 16px;
+                            }
+
+                            .footer__menu-link {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    flex-direction: column;
+
+                    .visit__icon {
+                        width: 60%;
+                        margin: 0 auto;
+                        padding-top: 50px;
+
+                        .icon__like {
+                            .like__city {
+                                bottom: 5px;
+
+                                .like__city-japan {
+                                    margin-right: 10%;
+                                }
+
+                                .like__comment {
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .intro {
+            .wrapper {
+                .intro__global {
+                    .intro__title {
+                        font-size: 25px;
+                    }
+
+                    .intro__form {
+                        padding-bottom: 100px;
+
+                        .form__input {
+                            margin-top: 50px;
+                            width: 230px;
+                        }
+
+                        .btn {
+                            margin-top: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .main {
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    flex-direction: column;
+
+                    .visit__icon {
+                        width: 60%;
+                        margin: 0 auto;
+                        padding-top: 50px;
+
+                        .icon__like {
+                            .like__city {
+                                bottom: 3px;
+
+                                .like__city-japan {
+                                    margin-right: 10%;
+                                    font-size: 14px;
+                                }
+
+                                .like__comment {
+                                    margin-right: 10px;
+                                    font-size: 12px;
+
+                                    .like {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .main {
+        .intro {
+            .wrapper {
+                .intro__global {
+                    .intro__title {
+                        font-size: 25px;
+                    }
+
+                    .intro__form {
+                        padding-bottom: 100px;
+
+                        .form__input {
+                            margin-top: 50px;
+                            width: 150px;
+                        }
+
+                        .form__input::placeholder {
+                            font-size: 12px;
+                        }
+
+                        .btn {
+                            margin-top: 70px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .visit {
+            .wrapper-full {
+                .visit__city {
+                    flex-direction: column;
+
+                    .visit__icon {
+                        width: 80%;
+                        margin: 0 auto;
+                        padding-top: 50px;
+
+                        .icon__like {
+                            .like__city {
+                                bottom: 3px;
+
+                                .like__city-japan {
+                                    margin-right: 50%;
+                                    font-size: 14px;
+                                    margin-left: 10px;
+                                }
+
+                                .like__comment {
+                                    margin-right: 10px;
+                                    font-size: 12px;
+
+                                    .like {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .benefits {
+            .benifits__wrap {
+                .odigo__travel {
+                    .info__travel {
+                        .more__travel {
+                            .learn__more {
+                                font-size: 14px;
+                                padding-right: 40px;
+                            }
+                        }
+                    }
                 }
             }
         }
